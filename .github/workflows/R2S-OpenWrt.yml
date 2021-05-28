@@ -1,6 +1,9 @@
 name: R2S-OpenWrt
 
 on:
+  push:
+    branches: 
+      - master
   #schedule:
    #- cron: * * * * *
   watch:
